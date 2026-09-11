@@ -18,13 +18,13 @@ CREATE TABLE IF NOT EXISTS prestamos (
 );
 
 INSERT IGNORE INTO libros VALUES 
-    (1, 'Cien anios de soledad', 'Gabriel Garcia Marquez', '978-0307474728'),
-    (2, 'El principito', 'Antoine de Saint-Exupery', '978-0156012195'),
-    (3, 'Clean Code', 'Robert C. Martin', '978-0132350884'),
-    (4, 'Introduction to Algorithms', 'Cormen, Leiserson, Rivest, Stein', '978-0262033848'),
-    (5, '1984', 'George Orwell', '978-0451524935');
+    (1, 'Don Quijote de la Mancha', 'Miguel de Cervantes', '978-8424115159'),
+    (2, 'Rayuela', 'Julio Cortazar', '978-8437604572'),
+    (3, 'Fahrenheit 451', 'Ray Bradbury', '978-8445071618'),
+    (4, 'El Hobbit', 'J.R.R. Tolkien', '978-8445073483'),
+    (5, 'Crimen y castigo', 'Fiodor Dostoyevski', '978-8491050513');
 
 INSERT IGNORE INTO prestamos VALUES 
-    (1, 3, 'Ana Lopez', '2026-08-01', '2026-08-10'),
-    (2, 3, 'Carlos Perez', '2026-08-15', NULL),
-    (3, 5, 'Maria Gonzalez', '2026-08-20', NULL);
+    (1, 1, 'Lucia Fernandez', '2026-08-05', '2026-08-12'),
+    (2, 3, 'Mateo Gomez', '2026-08-18', NULL),
+    (3, 4, 'Sofia Morales', '2026-08-22', NULL);', '2026-08-22', NULL);ria Gonzalez', '2026-08-20', NULL);

@@ -24,9 +24,9 @@ import java.util.List;
  */
 public class PrestamoDAO {
 
-	private static final String URL = "jdbc:mysql://localhost:3306/prog2_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
+	private static final String URL ="jdbc:mysql://localhost:3306/prog2_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
     private static final String USUARIO = "root";
-    private static final String PASSWORD = "Melany2003";
+    private static final String PASSWORD = "123A";
 
     // Repaso: INSERT con generated keys, igual que EstudianteDAO.crear().
     public int registrarPrestamo(Prestamo prestamo) throws SQLException {
